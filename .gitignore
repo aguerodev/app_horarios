@@ -1,0 +1,40 @@
+# Archivos de historial y sesión de R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+rsconnect/
+
+# Directorio de RStudio (archivos temporales y locales)
+.Rproj.user/
+
+# No ignorar el archivo .Rproj, para conservar la configuración del proyecto
+# *.Rproj   <--- Esta línea se omite para subir el .Rproj
+
+# Ignorar el archivo .Renviron (configuraciones locales/sensibles)
+.Renviron
+
+# Archivos generados por knitr y R Markdown
+*_cache/
+*.utf8.md
+*.knit.md
+
+# Ignorar logs: se ignoran todos los .txt dentro de logs, pero se conserva la carpeta
+logs/*.txt
+!logs/.gitkeep
+
+# Archivos de salida y logs generales
+*.Rout*
+*.log
+
+# Archivos temporales (por ejemplo, de LaTeX si usas R Markdown para PDF)
+*.aux
+*.out
+*.toc
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros archivos temporales
+*.tmp
